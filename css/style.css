@@ -2,7 +2,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+.navbar{
+    z-index: 3;
+}
 .navbar-brand{
     font-weight: 700;
 }
@@ -12,8 +14,7 @@
 }
 
 .btn-light{
-    background-color: white;
-    color: blue;
+    color: #0597BB;
     font-weight: 600;
     width: 160px;
     height: 40px;
@@ -23,21 +24,22 @@
 }
 
 #hero {
-    background: linear-gradient(160deg,#1A58D7,#0597BB);
+    /*background: linear-gradient(160deg,#1A58D7,#0597BB);*/
+    background-color: white;
     height: 100vh;
     width: 100%;
 }
 
 .hero-tagline h1{
-    color: white;
+    color: #0597BB;
     font-weight: 700;
     font-size: 44px;
     margin-bottom: 20px;
 }
 .hero-tagline p{
-    color: white;
+    color:grey;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 40px;
     line-height: 30px;
 }
@@ -62,7 +64,7 @@
 /*Kenapa Pilih Kami*/
 
 #Childnesia{
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #fcfcfc;
 }
 
@@ -89,23 +91,30 @@ h2{
     font-size: 14px;
 }
 
-#layanan .container{
-    padding: 100px 0 100px 0%;
+#layanan {
+    background-color: #ffffff;
+    padding: 20px;
+
 }
 
-.layanan-h1{
+.img-layanan{
+    width:80%;
+}
+
+.layanan-tagline h1{
     font-weight: 600;
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 20px;
+    color: #0597BB;
 }
 .layanan-tagline p{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     margin-bottom: 20px;
     line-height: 30px;
 }
 
-.button-primary{
+.button-lg-primary{
     width: 180px;
     background-color: #0597BB;
     height: 40px;
@@ -142,6 +151,7 @@ h2{
 .about-me h4{
     color: white;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .about-me p {
@@ -154,5 +164,52 @@ h2{
     text-decoration: none;
 }
 
+.contact h4{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
 
+.contact p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 14px;  
+}
 
+.contact a{
+    text-decoration: none;
+}
+
+.copyright{
+    height: auto;
+    padding: 15px;
+    color: #fcfcfc;
+    font-size: 12px;
+}
+
+/*About Page*/
+
+#tentang-kami{
+    background: linear-gradient(160deg,#1A58D7,#0597BB);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.about-tagline h1{
+    color: white;
+    font-weight: 700;
+    font-size: 44px;
+}
+.about-tagline p{
+    color:white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cards-item{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
